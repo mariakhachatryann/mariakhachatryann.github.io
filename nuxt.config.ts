@@ -9,5 +9,8 @@ export default defineNuxtConfig({
     },
     image: {
         dir: "assets"
+    },
+    router: {
+        base: "mariakhachatryann.github.io"
     }
 })
