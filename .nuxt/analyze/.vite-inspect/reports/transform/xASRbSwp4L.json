@@ -1,0 +1,210 @@
+{
+  "resolvedId": "C:/Users/user/Desktop/portfolio-mkh/node_modules/tsparticles-updater-out-modes/esm/NoneOutMode.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Vector, isPointInside, } from \"tsparticles-engine\";\nexport class NoneOutMode {\n    constructor(container) {\n        this.container = container;\n        this.modes = [\"none\"];\n    }\n    update(particle, direction, delta, outMode) {\n        if (!this.modes.includes(outMode)) {\n            return;\n        }\n        if ((particle.options.move.distance.horizontal &&\n            (direction === \"left\" || direction === \"right\")) ||\n            (particle.options.move.distance.vertical &&\n                (direction === \"top\" || direction === \"bottom\"))) {\n            return;\n        }\n        const gravityOptions = particle.options.move.gravity, container = this.container;\n        const canvasSize = container.canvas.size;\n        const pRadius = particle.getRadius();\n        if (!gravityOptions.enable) {\n            if ((particle.velocity.y > 0 && particle.position.y <= canvasSize.height + pRadius) ||\n                (particle.velocity.y < 0 && particle.position.y >= -pRadius) ||\n                (particle.velocity.x > 0 && particle.position.x <= canvasSize.width + pRadius) ||\n                (particle.velocity.x < 0 && particle.position.x >= -pRadius)) {\n                return;\n            }\n            if (!isPointInside(particle.position, container.canvas.size, Vector.origin, pRadius, direction)) {\n                container.particles.remove(particle);\n            }\n        }\n        else {\n            const position = particle.position;\n            if ((!gravityOptions.inverse &&\n                position.y > canvasSize.height + pRadius &&\n                direction === \"bottom\") ||\n                (gravityOptions.inverse && position.y < -pRadius && direction === \"top\")) {\n                container.particles.remove(particle);\n            }\n        }\n    }\n}\n",
+      "start": 1704142070290,
+      "end": 1704142070388,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1704142070388,
+      "end": 1704142070388,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1704142070388,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1704142070389,
+      "end": 1704142070389,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1704142070389,
+      "end": 1704142070390,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1704142070390,
+      "end": 1704142070390,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1704142070390,
+      "end": 1704142070390,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1704142070390,
+      "end": 1704142070390,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1704142070390,
+      "end": 1704142070390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1704142070390,
+      "end": 1704142070390,
+      "order": "normal"
+    }
+  ]
+}

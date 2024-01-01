@@ -1,0 +1,212 @@
+{
+  "resolvedId": "virtual:nuxt:C:/Users/user/Desktop/portfolio-mkh/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as aboutsxyCgEK8fXMeta } from \"C:/Users/user/Desktop/portfolio-mkh/pages/about.vue?macro=true\";\nimport { default as index9FtER3aAbzMeta } from \"C:/Users/user/Desktop/portfolio-mkh/pages/index.vue?macro=true\";\nexport default [\n  {\n    name: aboutsxyCgEK8fXMeta?.name ?? \"about\",\n    path: aboutsxyCgEK8fXMeta?.path ?? \"/about\",\n    meta: aboutsxyCgEK8fXMeta || {},\n    alias: aboutsxyCgEK8fXMeta?.alias || [],\n    redirect: aboutsxyCgEK8fXMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/user/Desktop/portfolio-mkh/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: index9FtER3aAbzMeta?.name ?? \"index\",\n    path: index9FtER3aAbzMeta?.path ?? \"/\",\n    meta: index9FtER3aAbzMeta || {},\n    alias: index9FtER3aAbzMeta?.alias || [],\n    redirect: index9FtER3aAbzMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/user/Desktop/portfolio-mkh/pages/index.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1704142064385,
+      "end": 1704142064385,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1704142064386,
+      "end": 1704142064386,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1704142064386,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1704142064387,
+      "end": 1704142064387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1704142064387,
+      "end": 1704142064388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1704142064388,
+      "end": 1704142064388,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1704142064388,
+      "end": 1704142064388,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1704142064388,
+      "end": 1704142064391,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1704142064391,
+      "end": 1704142064391,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1704142064391,
+      "end": 1704142064391,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1704142064391,
+      "end": 1704142064391,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1704142064391,
+      "end": 1704142064391,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1704142064391,
+      "end": 1704142064392,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1704142064392,
+      "end": 1704142064392,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as aboutsxyCgEK8fXMeta } from \"C:/Users/user/Desktop/portfolio-mkh/pages/about.vue?macro=true\";\nimport { default as index9FtER3aAbzMeta } from \"C:/Users/user/Desktop/portfolio-mkh/pages/index.vue?macro=true\";\nexport default [\n  {\n    name: aboutsxyCgEK8fXMeta?.name ?? \"about\",\n    path: aboutsxyCgEK8fXMeta?.path ?? \"/about\",\n    meta: aboutsxyCgEK8fXMeta || {},\n    alias: aboutsxyCgEK8fXMeta?.alias || [],\n    redirect: aboutsxyCgEK8fXMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/user/Desktop/portfolio-mkh/pages/about.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: index9FtER3aAbzMeta?.name ?? \"index\",\n    path: index9FtER3aAbzMeta?.path ?? \"/\",\n    meta: index9FtER3aAbzMeta || {},\n    alias: index9FtER3aAbzMeta?.alias || [],\n    redirect: index9FtER3aAbzMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/user/Desktop/portfolio-mkh/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
+      "start": 1704142064392,
+      "end": 1704142064392,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1704142064393,
+      "end": 1704142064393,
+      "order": "normal"
+    }
+  ]
+}
